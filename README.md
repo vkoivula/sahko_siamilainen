@@ -35,7 +35,7 @@ Käyttäjä ajaa Sähkö-Siamilaista omalla koneella Python-ympäristössä. Kys
 - Kone joka pyörittää tuota
 
 Toolchaining vielä hieman avoin, prototyyppi alustavasti:
-- Jypyter Notebook + Pandas DataFrames
+- Jupyter Notebook + Pandas DataFrames
 
 ## Käytetyt datalähteet
 Julkaisemme tietolähteiden käyttöön oman ohjeistuksen, koska Sähkö-Siamilaisen käyttäjän on itse ladattava oma datansa ja käyttää vahvaa tunnistusta kirjautuessaan. Julkaisemme yksityiskohtaiset ohjeet datan lataamista varten.
@@ -57,9 +57,7 @@ https://transparency.entsoe.eu/
 
 # Koska Sähkö-Siamilainen on käytettävissä?
 ## Vaihe 1
-Haluan ensin selvittää, että työkalulla on riittävästi kiinnostuneita käyttäjiä, jotta se on kehittämisen arvoinen.
-
-Toteutan Google Formilla kyselyn, jossa halukkaat voivat ilmaista kiinnostustaan Sähkö-Siamilaisen käyttöön.
+Haluan ensin selvittää Google Formilla toteutetulla kyselyllä, että työkalulla on riittävästi kiinnostuneita käyttäjiä.
 
 Ilmaise täällä kiinnostuksesi Sähkö-Siamilaisen käyttöön! https://docs.google.com/forms/d/e/1FAIpQLSfYFODosseFL2MsllrSzjl23Q3OSMQAigyO3zn3RThRHK6_xg/viewform
 
