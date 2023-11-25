@@ -11,7 +11,7 @@ Käyttäjä ajaa Sähkö-Siamilaista omalla koneella Python-ympäristössä. Kys
 
 <img src="images/sahko-siamilainen.jpg" alt="image alt text" width="300"/>
 
-> Sähkö-Siamilainen: Supersankari, joka hallitsee sähkövirtaa ja pystyy ohjaamaan sitä tahtonsa mukaan. Hänellä on erityinen kyky nähdä sähkövirrat ja käyttää niitä hyväkseen strategisesti taistelussa.
+> Sähkö-Siamilainen: Supersankari, joka hallitsee sähkövirtaa ja pystyy ohjaamaan sitä tahtonsa mukaan. Hänellä on erityinen kyky nähdä sähkövirrat ja käyttää niitä hyväkseen strategisesti taistelussa.</br></br>Sähkö-Siamilainen taistelee epävakautta tuovia voimia vastaan sähkömarkkinoilla, jotka usein vaikuttavat yhteiskunnan jokapäiväiseen elämään.
 
 
 ## Ominaisuudet
