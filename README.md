@@ -1,5 +1,5 @@
 # Mikä on Sähkö-Siamilainen?
-Sähkö-Siamilainen on vapaan lähdekoodin työkalu, jolla tietojenkäsittelytaitoinen kuluttaja voi analysoida omaa sähkönsiiron ja myynnin dataa ladattuaan sen koneelleen Fingrid Datahubin -kuluttajaportaalista.
+Sähkö-Siamilainen on vapaan lähdekoodin työkalu, jolla tietojenkäsittelytaitoinen kuluttaja voi analysoida omaa dataansa ladattuaan sen koneelleen Fingrid Datahubin -kuluttajaportaalista.
 
 Työkalulla voi tehdä vertailunlaskelmat laskutuksen ja mittauksen tarkistamiseksi, sekä analysoida datasta häiriöitä tilastollisin menetelmin.
 
@@ -16,7 +16,7 @@ Käyttäjä ajaa Sähkö-Siamilaista omalla koneella Python-ympäristössä. Kys
 
 ## Ominaisuudet
 
-1. Analysoi Fingridistä ladattavaa sähkön verkkoyhtiön ja myyjän tuottamaa dataa tilastollisin menetelmin.
+1. Analysoi Fingridistä ladattavaa dataa tilastollisin menetelmin.
 1. Tee vertailunlaskelma sähkön verkko- ja myyntiyhtiön laskutuksesta Fingridin dataan ja käyttäjän syöttämiin tietoihin pohjautuen
     - Kiinteähintaiset asiakkaat
     - Pörssisähkön asiakkaat
@@ -32,10 +32,7 @@ Käyttäjä ajaa Sähkö-Siamilaista omalla koneella Python-ympäristössä. Kys
 
 ## Laitteistovaatimukset ja ympäristö
 - Python 3.11 + pip
-- Kone joka pyörittää tuota
-
-Toolchaining vielä hieman avoin, prototyyppi alustavasti:
-- Jupyter Notebook + Pandas DataFrames
+- Jupyter Lab + Pandas DataFrames
 
 ## Käytetyt datalähteet
 Julkaisemme tietolähteiden käyttöön oman ohjeistuksen, koska Sähkö-Siamilaisen käyttäjän on itse ladattava oma datansa ja käyttää vahvaa tunnistusta kirjautuessaan. Julkaisemme yksityiskohtaiset ohjeet datan lataamista varten.
