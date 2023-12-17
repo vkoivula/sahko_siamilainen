@@ -16,19 +16,27 @@ Käyttäjä ajaa Sähkö-Siamilaista omalla koneella Python-ympäristössä. Kys
 
 ## Ominaisuudet
 
-1. Analysoi Fingridistä ladattavaa dataa tilastollisin menetelmin.
-1. Tee vertailunlaskelma sähkön verkko- ja myyntiyhtiön laskutuksesta Fingridin dataan ja käyttäjän syöttämiin tietoihin pohjautuen
+### Analytiikka
+- Analysoi Fingridistä ladattavaa dataa tilastollisin menetelmin esim. normaalista kulutuksesta poikkeavat piikit.
+- Tee vertailunlaskelma sähkön verkko- ja myyntiyhtiön laskutuksesta Fingridin dataan ja käyttäjän syöttämiin tietoihin pohjautuen
     - Kiinteähintaiset asiakkaat
     - Pörssisähkön asiakkaat
+- Vertailu historiallisen datan perusteella pörssisähkö vs. kiinteähintainen.
 
-*Tarkemmat ominaisuudet tullaan julkaisemaan myöhemmin. Esimerkiksi mahdollinen tuki sähkön pientuotanto -asiakkaille.*
+> Käyttöpaikkoja, joissa on sähkön pientuotantoa tuetaan 1.1.2023 alkaen.
 
-## Toiminta menee suurinpiirtein tälleen
-1. Lataa oma datasi Fingridin ylläpitämästä Datahub -kuluttajaportaalista
-1. Lataa pörssisähkön hintatiedot ENTSO-E transparency platformin -kautta
-1. Lataa Sähkö-Siamilaisen uusin versio Git -repositorysta
-1. Käynnistä Sähkö-Siamilainen ja analysoi aineistot ohjeiden mukaan
-1. Lähetä valinnainen telemetria ja/tai anonymoisoitu data, jotta voimme saada avointa dataa eri verkkoyhtiöiden ja sähkön myyjien järjestelmien tilasta
+### Sähkön pientuottajat
+- Akuston vaikutus hintaan pörssisähköä käyttäessä. Laske miten eri kokoisilla akustoilla voi välttää pörssisähkön hintapiikkeä.
+
+### Kotiautomaatio
+- Reaaliaikaisen datan kerääminen HAN/RJ12 -portista.
+
+## Analytiikan toiminta menee suurinpiirtein tälleen
+1. Lataa oma datasi Fingridin ylläpitämästä Datahub -kuluttajaportaalista tai mukana tulevalla komentorivi -ohjelmalla.
+1. Lataa pörssisähkön uusimat hintatiedot ENTSO-E transparency platformin -kautta.
+1. Lataa Sähkö-Siamilaisen uusin versio Git -repositorysta.
+1. Käynnistä Sähkö-Siamilainen ja analysoi aineistot ohjeiden mukaan.
+1. Lähetä valinnainen telemetria ja/tai anonymoisoitu data, jotta voimme kerätä avointa dataa eri verkkoyhtiöiden ja sähkön myyjien järjestelmien tilasta.
 
 ## Laitteistovaatimukset ja ympäristö
 - Python 3.11 + pip
