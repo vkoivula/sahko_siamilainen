@@ -23,7 +23,7 @@ Käyttäjä ajaa Sähkö-Siamilaista omalla koneella Python-ympäristössä. Kys
     - Pörssisähkön asiakkaat
 - Vertailu historiallisen datan perusteella pörssisähkö vs. kiinteähintainen.
 
-> Käyttöpaikkoja, joissa on sähkön pientuotantoa tuetaan 1.1.2023 alkaen.
+> Käyttöpaikkat joissa on sähkön pientuotantoa on Fingridin datahubista saatavilla käytetty omatuotanto eriteltynä vain 1.1.2023 alkaen.
 
 ### Sähkön pientuottajat
 - Akuston vaikutus hintaan pörssisähköä käyttäessä. Laske miten eri kokoisilla akustoilla voi välttää pörssisähkön hintapiikkeä.
